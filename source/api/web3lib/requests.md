@@ -1,9 +1,9 @@
 title: Web3-like library in page
 ---
 
-# Web3-like library request API based on EVERIP-32 (formerly TIP-32) standard
+# Web3-like library request API based on TIP-32 standard
 
-The wallet browser extension allows interaction with DApp based on EVERIP-32 (formerly TIP-32) standard. Full specification places [here](https://docs.google.com/document/u/1/d/1NVSznTRUEZ53rj8je9xdXZbcyHIybURlcGtCQAoHhuos).
+The wallet browser extension allows interaction with DApp based on TIP-32 standard. Full specification places [here](https://docs.google.com/document/u/1/d/1NVSznTRUEZ53rj8je9xdXZbcyHIybURlcGtCQAoHhuos).
 
 **Restrictions**
 - DApp can't open more than 15 dialogs simultaneously
@@ -11,7 +11,7 @@ The wallet browser extension allows interaction with DApp based on EVERIP-32 (fo
 - Some method can't be invoked by scheme *ever_MODULE_METHOD*. For example, `ever_net_subscribe_collection` to avoid cases when DApp can do a huge subscription number and force to hang a user web-browser
 - DApp can't create more than 5 subscriptions simultaneously
 
-DApp can run EVERSCALE SDK method directly by the scheme, that is described in EVERIP-32 (formerly TIP-32):
+DApp can run EVERSCALE SDK method directly by the scheme, that is described in TIP-32:
 
 ```js
   window.everscale
@@ -38,7 +38,7 @@ For example:
 
 # Demo page
 
-All methods EVERSCALE SDK and methods from specification EVERIP-32 (formerly TIP-32) are available for the testing on [demo page](https://everip32-demopage.pertinaxwallet.com/)
+All methods EVERSCALE SDK and methods from specification TIP-32 are available for the testing on [demo page](https://everip32-demopage.pertinaxwallet.com/)
 
 # The most frequently used methods places below:
 
