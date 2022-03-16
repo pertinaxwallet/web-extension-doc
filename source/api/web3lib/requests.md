@@ -38,7 +38,7 @@ For example:
 
 # Demo page
 
-All methods EVERSCALE SDK and methods from specification TIP-32 are available for the testing on [demo page](https://everip32-demopage.pertinaxwallet.com/)
+All methods EVERSCALE SDK and methods from specification TIP-32 are available for the testing on [demo page](https://tip32-demopage.pertinaxwallet.com/)
 
 # The most frequently used methods places below:
 
